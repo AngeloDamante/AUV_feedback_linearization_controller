@@ -1,11 +1,13 @@
 # AUV_feedback_linearization_controller
 Feedback Linearization Controller for Autonomous Underwater Vehicle.
 
-## Introduction
+## Introduction and Installation
 This repository implement a Feedback Linearization Controller for AUV in Python with ROS middleware. 
 This Controller has been implemented in a faithful simulation of AUV designed in MDM Lab of University of Florence.
 With a modular property of ROS, old PID controller has been replaced by this new inverse-dynamic based controller. 
 Reference for this project is: https://www.fossen.biz/wiley/ed1/Ch13.pdf
+
+Requirements are: http://wiki.ros.org/ROS/Tutorials and https://www.python.org/download/releases/2.7/
 
 ## Feedback Linearization
 This control guarantees asymptotic stability with dynamic of error expressed in body-fixed frame.
