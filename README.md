@@ -1,5 +1,4 @@
-# AUV_feedback_linearization_controller
-Feedback Linearization Controller for Autonomous Underwater Vehicle.
+# Feedback Linearization Controller for Autonomous Underwater Vehicle.
 
 ## Introduction and Installation
 This repository implement a Feedback Linearization Controller for AUV in Python with ROS middleware. 
