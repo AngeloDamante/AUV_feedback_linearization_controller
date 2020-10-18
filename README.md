@@ -5,9 +5,9 @@
 This repository implement a Feedback Linearization Controller for AUV in Python with ROS middleware. 
 This Controller has been implemented in a faithful simulation of AUV designed in MDM Lab of University of Florence.
 With a modular property of ROS, old PID controller has been replaced by this new inverse-dynamic based controller. 
-Reference for this project is: https://www.fossen.biz/wiley/ed1/Ch13.pdf
+Reference for this project is: <a href="https://www.fossen.biz/wiley/ed1/Ch13.pdf"> Fossen documentation </a>
 
-Requirements are: http://wiki.ros.org/ROS/Tutorials and https://www.python.org/download/releases/2.7/
+Requirements are: <a href="http://wiki.ros.org/ROS/Tutorials"> ROS </a> and <a href="https://www.python.org/download/releases/2.7/"> python language </a>.
 
 ## Feedback Linearization
 This control guarantees asymptotic stability with dynamic of error expressed in body-fixed frame.
